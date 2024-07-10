@@ -1,0 +1,110 @@
+.box {
+  width: 320px;
+  height: 355px;
+  border: 1px solid rgba(211, 211, 211, 0.874);
+  border-radius: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  position: relative;
+  width: 300px; /* Adjust container width */
+  height: 200px; /* Adjust container height */
+  margin: 10px; /* Adjust container margin */
+}
+
+.container .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px; /* Ensure border-radius matches container */
+  display: block;
+}
+
+.container .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.container .overlay .img-txt1 {
+  font-size: 16px;
+
+  color: white;
+  background-color: rgb(15, 164, 210);
+
+  height: 23px;
+  width: 145px;
+  text-align: center;
+  margin-left: 0;
+}
+
+.container .overlay .img-txt2 {
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  width: 40px;
+  border-radius: 10px;
+  height: 10px;
+  padding: 8px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.container .top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.667);
+  font-size: 14px;
+  font-style: bolder;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.354);
+  border-radius: 7px;
+  width: 62px;
+}
+
+.container .overlay .left {
+  flex: 1;
+  text-align: left;
+}
+
+.txt1 {
+  font-size: 18px;
+  color: black;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.txt2 {
+  font-size: 15px;
+  color: gray;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.footer-txt {
+  font-size: 13px;
+  color: gray;
+}
+.line {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+  padding: 0;
+  margin: 0;
+
+  margin-left: 14px;
+}
